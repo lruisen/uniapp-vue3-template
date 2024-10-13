@@ -1,0 +1,28 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.json",
+  "compilerOptions": {
+    "ignoreDeprecations": "5.0",
+    "sourceMap": true,
+    "baseUrl": ".",
+    "allowJs": true,
+    "paths": {
+      "@/*": ["./src/*"],
+      "/#/*": ["./types/*"]
+    },
+    "lib": ["esnext", "dom", "DOM.Iterable"],
+    "types": ["@dcloudio/types"],
+    "noImplicitAny": false
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "types/**/*.d.ts",
+    "scripts/**/*.d.ts",
+    "scripts/**/*.ts",
+    "plugin/**/*.d.ts",
+    "plugin/**/*.ts"
+  ],
+  "exclude": ["node_modules", "unpackage", "dist", "**/*.js"]
+}
