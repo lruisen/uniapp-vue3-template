@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"composite": true,
+		"skipLibCheck": true,
+		"module": "ESNext",
+		"moduleResolution": "Node",
+		"resolveJsonModule": true,
+		"noImplicitThis": true,
+		"allowSyntheticDefaultImports": true,
+		"ignoreDeprecations": "5.0",
+		"sourceMap": true,
+		"baseUrl": ".",
+		"allowJs": true,
+		"outDir": "dist",
+		"paths": {
+			"@/*": ["./src/*"],
+			"/#/*": ["./src/types/*"]
+		},
+		"lib": ["esnext", "dom", "DOM.Iterable"],
+		"types": ["@dcloudio/types"],
+		"noImplicitAny": false
+	},
+	"include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "src/types/**/*.d.ts", "scripts/**/*.ts", "src/**/*.json"],
+	"exclude": ["node_modules", "unpackage", "dist", "**/*.js"]
+}
