@@ -1,4 +1,5 @@
 onlyBuiltDependencies:
   - '@parcel/watcher'
+  - bufferutil
   - core-js
   - esbuild
