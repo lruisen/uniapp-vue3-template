@@ -20,6 +20,15 @@
 		"types": ["@dcloudio/types"],
 		"noImplicitAny": false
 	},
-	"include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "src/types/**/*.d.ts", "scripts/**/*.ts", "src/**/*.json"],
+	"include": [
+		"src/**/*.ts",
+		"src/**/*.d.ts",
+		"src/**/*.tsx",
+		"src/**/*.vue",
+		"src/types/**/*.d.ts",
+		"scripts/**/*.ts",
+		"src/**/*.json",
+		"package.json"
+	],
 	"exclude": ["node_modules", "unpackage", "dist", "**/*.js"]
 }
