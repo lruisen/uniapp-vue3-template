@@ -2,7 +2,7 @@
 	<view class="content">
 		<image class="logo" src="/static/logo.png" />
 		<view class="text-area border-base bg-red-500">
-			<text class="title font-bold">{{ title }}</text>
+			<text class="title font-bold">{{ $u.guid() }}</text>
 		</view>
 	</view>
 </template>
